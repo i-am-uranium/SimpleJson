@@ -14,6 +14,8 @@
 		1B07D2A71B68E0F7001C146F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B07D2A51B68E0F7001C146F /* LaunchScreen.storyboard */; };
 		1B07D2B21B68E0F7001C146F /* SimpleJSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B07D2B11B68E0F7001C146F /* SimpleJSONTests.swift */; };
 		1B07D2BD1B68E0F7001C146F /* SimpleJSONUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B07D2BC1B68E0F7001C146F /* SimpleJSONUITests.swift */; };
+		1B07D2CB1B68E1F1001C146F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B07D2CA1B68E1F1001C146F /* ViewModel.swift */; };
+		1B07D3171B695803001C146F /* PHPAPIExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B07D3161B695803001C146F /* PHPAPIExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		1B07D2B81B68E0F7001C146F /* SimpleJSONUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleJSONUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B07D2BC1B68E0F7001C146F /* SimpleJSONUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleJSONUITests.swift; sourceTree = "<group>"; };
 		1B07D2BE1B68E0F7001C146F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B07D2CA1B68E1F1001C146F /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		1B07D3161B695803001C146F /* PHPAPIExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHPAPIExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,14 @@
 		1B07D29B1B68E0F6001C146F /* SimpleJSON */ = {
 			isa = PBXGroup;
 			children = (
+				1B07D2CA1B68E1F1001C146F /* ViewModel.swift */,
 				1B07D29C1B68E0F6001C146F /* AppDelegate.swift */,
 				1B07D29E1B68E0F6001C146F /* ViewController.swift */,
 				1B07D2A01B68E0F7001C146F /* Main.storyboard */,
 				1B07D2A31B68E0F7001C146F /* Assets.xcassets */,
 				1B07D2A51B68E0F7001C146F /* LaunchScreen.storyboard */,
 				1B07D2A81B68E0F7001C146F /* Info.plist */,
+				1B07D3161B695803001C146F /* PHPAPIExample.swift */,
 			);
 			path = SimpleJSON;
 			sourceTree = "<group>";
@@ -255,7 +261,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B07D3171B695803001C146F /* PHPAPIExample.swift in Sources */,
 				1B07D29F1B68E0F6001C146F /* ViewController.swift in Sources */,
+				1B07D2CB1B68E1F1001C146F /* ViewModel.swift in Sources */,
 				1B07D29D1B68E0F6001C146F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -481,6 +489,7 @@
 				1B07D2C31B68E0F7001C146F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B07D2C41B68E0F7001C146F /* Build configuration list for PBXNativeTarget "SimpleJSONTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +498,7 @@
 				1B07D2C61B68E0F7001C146F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B07D2C71B68E0F7001C146F /* Build configuration list for PBXNativeTarget "SimpleJSONUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +507,7 @@
 				1B07D2C91B68E0F7001C146F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
